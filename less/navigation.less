@@ -16,11 +16,24 @@ header {
     width:15%;
 }
 
+@media@media800 {
+    .logo {
+        width:100%;
+    }
+}
+
 nav {
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content:space-evenly;
     width:85%;
+}
+
+@media@media800 {
+    nav {
+        width:100%;
+    }
 }
 
 nav a{
@@ -28,4 +41,23 @@ nav a{
     color:@white;
     text-decoration:none;
     font-family:@courgette;
+}
+
+footer nav.footer {
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-evenly;
+    align-items:center;
+    height:36px;
+}
+
+footer {
+    height:36px;
+    color:@white;
+    background-color:@lightBlue;
+}
+
+nav.footer a {
+    font-size:1.3rem;
+    font-family:cursive,arial,'Times New Roman', Times, serif;
 }
