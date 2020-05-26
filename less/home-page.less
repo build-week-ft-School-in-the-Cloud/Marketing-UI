@@ -11,26 +11,26 @@
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    width:50% !important;
-    flex-shrink: 0;
 }
 
 .section {
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    width:50% !important;
-    flex-shrink: 0;
 }
 
 .box {
     width:90%;
-    height:216px;
+    height:224px;
     margin:24px auto;
     border:3px solid @lightBlue;
     font-family:arial;
     position:relative;
     line-height:1.3;
+}
+
+.box2 {
+    height:auto;
 }
 
 .box h2 {
@@ -60,6 +60,36 @@
     text-align:justify;
 }
 
+.flex-courses {
+    display:flex;
+    justify-content:space-evenly;
+    padding:2px;
+}
+
+.flex-courses img {
+    width:20%;
+}
+
+.flex-courses .description {
+    font-weight:bold;
+    width:60%;
+    padding:4px;
+}
+
+.flex-courses .price {
+    width:20%;
+}
+
+.price a {
+    padding:6px;
+    margin:6px;
+    text-decoration:none;
+    background-color:@darkBlue;
+    color:lightBlue;
+    text-align:center;
+    font-family:@courgette;
+}
+
 .box a {
     width:108px;
     margin:12px calc((100% - 108px) / 2);
@@ -72,4 +102,12 @@
     bottom:12px;
     text-align:center;
     font-family:@courgette;
+}
+
+.sixty {
+    width:60%;
+}
+
+.forty {
+    width:40%;
 }
