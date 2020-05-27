@@ -132,11 +132,21 @@ header {
   background: #50bde4;
   padding-left: 10%;
 }
+@media (max-width:800px) {
+  header {
+    padding-left: 0;
+  }
+}
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
+}
+@media (max-width:800px) {
+  .header {
+    flex-direction: column;
+  }
 }
 .logo {
   width: 15%;
@@ -144,6 +154,7 @@ header {
 @media (max-width:800px) {
   .logo {
     width: 100%;
+    text-align: center;
   }
 }
 nav {
@@ -156,6 +167,9 @@ nav {
 @media (max-width:800px) {
   nav {
     width: 100%;
+    margin-top: -6px;
+    margin-bottom: 12px;
+    background-color: #50bde4;
   }
 }
 nav a {
@@ -166,8 +180,8 @@ nav a {
 }
 footer nav.footer {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-evenz;
   align-items: center;
   height: 36px;
 }
@@ -175,6 +189,9 @@ footer {
   height: 36px;
   color: white;
   background-color: #50bde4;
+}
+footer nav {
+  width: 100%;
 }
 nav.footer a {
   font-size: 1.3rem;
@@ -191,6 +208,7 @@ nav.footer a {
 @media (max-width:1000px) {
   .pageContainer {
     width: 85%;
+    margin: 24px auto;
   }
 }
 @media (max-width:800px) {
@@ -210,24 +228,24 @@ nav.footer a {
     width: 100%;
   }
 }
-main {
+main.homeMain {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 @media (max-width:800px) {
-  main {
+  main.homeMain {
     flex-direction: column;
     width: 100%;
   }
 }
-section {
+section.homeSection {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 @media (max-width:800px) {
-  section {
+  section.homeSection {
     flex-direction: column;
     width: 100%;
   }
@@ -326,4 +344,80 @@ section {
 }
 .button {
   margin: 18px;
+}
+.pageContainer2 {
+  width: 80%;
+  margin: 12px auto;
+  padding-top: 12px;
+  background-color: #e9f5f8;
+}
+@media (max-width:900px) {
+  .pageContainer2 {
+    width: 95%;
+  }
+}
+@media (max-width:800px) {
+  .pageContainer2 {
+    width: 100%;
+    margin: 24px auto;
+  }
+}
+.about100 {
+  width: 100%;
+}
+.about50 {
+  width: 50%;
+}
+@media (max-width:800px) {
+  .about50 {
+    width: 100%;
+  }
+}
+.topAbout {
+  width: 95%;
+  margin: 12px auto;
+}
+@media (max-width:800px) {
+  .topAbout {
+    width: 100%;
+  }
+}
+.topAbout img {
+  height: 150px;
+}
+.about {
+  width: 90%;
+  margin: 12px auto;
+}
+@media (max-width:800px) {
+  .about {
+    width: 100%;
+  }
+}
+.about img {
+  height: 150px;
+}
+.flex {
+  display: flex;
+}
+@media (max-width:800px) {
+  .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.insideFlex {
+  display: flex;
+  margin: 2px;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  line-height: 2;
+}
+.flexColumn h3 {
+  font-size: 1.5rem;
+  font-family: 'Courgette', cursive;
 }

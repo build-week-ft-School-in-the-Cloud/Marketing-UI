@@ -3,6 +3,10 @@ header {
     height:100px;
     background:@lightBlue;
     padding-left:10%;
+
+    @media@media800 {
+        padding-left:0;
+    }
 }
 
 .header {
@@ -10,6 +14,10 @@ header {
     flex-direction:row;
     align-items:center;
     width:100%;
+
+    @media@media800 {
+        flex-direction:column;
+    }
 }
 
 .logo {
@@ -19,6 +27,7 @@ header {
 @media@media800 {
     .logo {
         width:100%;
+        text-align:center;
     }
 }
 
@@ -33,6 +42,9 @@ nav {
 @media@media800 {
     nav {
         width:100%;
+        margin-top:-6px;
+        margin-bottom:12px;
+        background-color:@lightBlue;
     }
 }
 
@@ -45,8 +57,8 @@ nav a{
 
 footer nav.footer {
     display:flex;
-    flex-direction:row-reverse;
-    justify-content:space-evenly;
+    flex-direction:row;
+    justify-content:space-evenz;
     align-items:center;
     height:36px;
 }
@@ -55,6 +67,10 @@ footer {
     height:36px;
     color:@white;
     background-color:@lightBlue;
+}
+
+footer nav {
+    width:100%;
 }
 
 nav.footer a {
