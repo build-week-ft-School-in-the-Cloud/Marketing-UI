@@ -315,7 +315,7 @@ section.homeSection {
   text-align: center;
   font-family: 'Courgette', cursive;
 }
-.box a {
+.box a.homePageLink {
   width: 108px;
   margin: 24px calc((100% - 108px) / 2);
   text-decoration: none;
@@ -420,4 +420,19 @@ section.homeSection {
 .flexColumn h3 {
   font-size: 1.5rem;
   font-family: 'Courgette', cursive;
+}
+/* CONTACT PAGE */
+.box ul {
+  margin: 24px;
+  line-height: 2.25;
+}
+a.github {
+  color: darkBlue;
+  text-decoration: none;
+  padding: 4px;
+}
+a.github:hover {
+  color: #50bde4;
+  background-color: darkBlue;
+  text-decoration: underline;
 }
