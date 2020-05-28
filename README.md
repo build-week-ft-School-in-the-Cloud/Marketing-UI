@@ -15,10 +15,10 @@ How to use LESS
 2. Open Terminal or Git Bash
 
 3. Navigate to the directory by typing in the command:
-* `cd build-week-ft-School-in-the-Cloud/Marketing-UI`
+   * `cd build-week-ft-School-in-the-Cloud/Marketing-UI`
 
 4. Watch directory changes by typing in the command:
-* `less-watch-compiler less css index.less`
+   * `less-watch-compiler less css index.less`
 
 5. Update LESS files to style **School in the Cloud**
 
