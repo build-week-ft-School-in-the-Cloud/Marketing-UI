@@ -10,15 +10,15 @@ How to use LESS
 ---
 
 1. Use existing less files or create new ones
-* If you create new less files, be sure to add them to [index](index.less) in appropriate order.
+* If you create new less files, be sure to add them to [index](https://github.com/build-week-ft-School-in-the-Cloud/Marketing-UI/blob/master/less/index.less) in appropriate order.
 
 2. Open Terminal or Git Bash
 
 3. Navigate to the directory by typing in the command:
-* cd build-week-ft-School-in-the-Cloud/Marketing-UI
+* `cd build-week-ft-School-in-the-Cloud/Marketing-UI`
 
 4. Watch directory changes by typing in the command:
-* less-watch-compiler less css index.less
+* `less-watch-compiler less css index.less`
 
 5. Update LESS files to style **School in the Cloud**
 
